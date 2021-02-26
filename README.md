@@ -29,6 +29,11 @@ $ sudo su
 # dnf install steam -y
 ```
 
+## Dev
+```sh
+# dnf install nodejs npm -y
+```
+
 ## Android Studio 
 
 ### Before install
@@ -55,3 +60,39 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify)
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
 - [Eclipse](https://www.eclipse.org/downloads)
+
+## Visual Studio Code Config
+
+- Omni
+- Material Icon Theme
+
+```json
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+	"editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true
+}
+```
