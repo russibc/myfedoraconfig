@@ -11,7 +11,7 @@ $ sudo su
 
 ## Update OS and repos
 ```sh
-# dnf autoclean && dnf autoremove && dnf update -y && dnf upgrade -y
+# dnf clean all && dnf autoremove && dnf update -y && dnf upgrade -y
 ```
 
 ## Graphics & Audio
@@ -29,11 +29,29 @@ $ sudo su
 # dnf install steam -y
 ```
 
+## Android Studio 
+
+### Before install
+```sh
+$ sudo dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y
+```
+
+- [Android Studio](https://developer.android.com/studio/install#linux)
+
+
+### Add To Path
+```sh
+$ export ANDROID_HOME=/home/$USER/Android/Sdk/
+```
+```sh
+$ export PATH=$PATH:$ANDROID_HOME/tools
+```
+
 ## Other
 
+- [Java](https://docs.fedoraproject.org/en-US/quick-docs/installing-java)
 - [GitKraken](https://www.gitkraken.com/download/linux-rpm)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify)
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
 - [Eclipse](https://www.eclipse.org/downloads)
-- [Android Studio](https://developer.android.com/studio/install#linux)
