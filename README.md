@@ -10,11 +10,19 @@ $ sudo su
 
 ## Free Repos
 ```sh 
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+# sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 ```
 ## NonFree Repos
 ```sh
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+# sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
+
+## Flat Icon & Theme (use Alacarte)
+```sh
+# sudo dnf install flat-remix-icon-theme -y
+```
+```sh
+# sudo dnf install flat-remix-theme -y
 ```
 
 ## Update OS and repos
