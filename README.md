@@ -10,24 +10,21 @@ $ sudo su
 
 ## Free Repos
 ```sh 
-# sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+# dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
 ```
 ## NonFree Repos
 ```sh
-# sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+# dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 ```
+## Essential
 
-## Flat Icon & Theme (use Alacarte)
 ```sh
-# sudo dnf install flat-remix-icon-theme -y
-```
-```sh
-# sudo dnf install flat-remix-theme -y
+# dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig -y
 ```
 
 ## Update OS and repos
 ```sh
-# dnf clean all && dnf autoremove && dnf update -y && dnf upgrade -y
+# dnf clean all && dnf autoremove && dnf update -y && dnf upgrade -y & reboot
 ```
 
 ## Graphics & Audio
