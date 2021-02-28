@@ -5,7 +5,7 @@ $ sudo su
 
 ## Remove
 ```sh
-# dnf remove rhythmbox -y && dnf remove libreoffice* -y && dnf remove totem -y && dnf remove gnome-calendar -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-videos -y dnf remove gnome-boxes -y
+# dnf remove rhythmbox -y && dnf remove libreoffice* -y && dnf remove totem -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-boxes -y
 ```
 
 ## Free Repos
@@ -39,7 +39,7 @@ $ sudo su
 
 ## Games
 ```sh
-# dnf install steam -y
+# dnf install steam -y && dnf install lutris -y
 ```
 
 ## Dev
