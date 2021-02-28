@@ -5,8 +5,14 @@ $ sudo su
 
 ## Remove
 ```sh
-# dnf remove rhythmbox -y && dnf remove gnome-calendar -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-videos -y dnf remove gnome-boxes -y
+# dnf remove rhythmbox -y && dnf remove libreoffice* -y && dnf remove totem -y && dnf remove gnome-calendar -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-videos -y dnf remove gnome-boxes -y
+```
 
+## Free and NonFree
+```sh sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+```
+```sh
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 
 ## Update OS and repos
@@ -16,12 +22,12 @@ $ sudo su
 
 ## Graphics & Audio
 ```sh
-# dnf install vlc -y && dnf install audacity -y && dnf install inkscape -y && dnf install gimp -y
+# dnf install kolourpaint -y && dnf install smplayer -y && dnf install audacity -y && dnf install inkscape -y && dnf install gimp -y
 ```
 
 ## Utils
 ```sh
-# dnf install gnome-tweak-tool -y && dnf install alacarte -y && dnf install transmission -y && dnf install chromium -y && dnf install telegram -y 
+# dnf install gparted -y && dnf install gnome-tweak-tool -y && dnf install alacarte -y && dnf install transmission -y && dnf install telegram -y 
 ```
 
 ## Games
@@ -60,6 +66,7 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify)
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
 - [Eclipse](https://www.eclipse.org/downloads)
+- [Chrome](https://www.google.com/chrome/?platform=linux)
 
 ## Visual Studio Code Config
 
