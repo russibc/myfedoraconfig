@@ -8,9 +8,11 @@ $ sudo su
 # dnf remove rhythmbox -y && dnf remove libreoffice* -y && dnf remove totem -y && dnf remove gnome-calendar -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-videos -y dnf remove gnome-boxes -y
 ```
 
-## Free and NonFree
-```sh sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+## Free Repos
+```sh 
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 ```
+## NonFree Repos
 ```sh
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
