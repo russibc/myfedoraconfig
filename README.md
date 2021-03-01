@@ -74,6 +74,7 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
 - [Eclipse](https://www.eclipse.org/downloads)
 - [Chrome](https://www.google.com/chrome/?platform=linux)
+- [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
 
 ## Visual Studio Code Config
 
@@ -99,7 +100,7 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
-	"editor.formatOnSave": true,
+  "editor.formatOnSave": true,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   
