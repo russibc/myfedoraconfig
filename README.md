@@ -19,7 +19,11 @@ $ sudo su
 ## Essential
 
 ```sh
-# dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig -y
+# dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig libcurl-devel sqlite-devel -y
+```
+
+```sh
+# curl -fsS https://dlang.org/install.sh | bash -s dmd
 ```
 
 ## Update OS and repos
@@ -51,7 +55,7 @@ $ sudo su
 
 ### Before install
 ```sh
-$ sudo dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y
+# sudo dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y
 ```
 
 - [Android Studio](https://developer.android.com/studio/install#linux)
@@ -77,6 +81,7 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [TeamViewer](https://www.teamviewer.com/pt-br/download/linux)
 - [Slack](https://slack.com/intl/pt-br/downloads/linux)
 - [Stremio](https://www.stremio.com/downloads)
+- [OneDrive](https://github.com/skilion/onedrive)
 
 ## Visual Studio Code Config
 
