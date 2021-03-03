@@ -74,8 +74,9 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
 - [Eclipse](https://www.eclipse.org/downloads)
 - [Chrome](https://www.google.com/chrome/?platform=linux)
-- [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
+- [TeamViewer](https://www.teamviewer.com/pt-br/download/linux)
 - [Slack](https://slack.com/intl/pt-br/downloads/linux)
+- [Stremio](https://www.stremio.com/downloads)
 
 ## Visual Studio Code Config
 
