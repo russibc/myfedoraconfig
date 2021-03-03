@@ -19,7 +19,11 @@ $ sudo su
 ## Essential
 
 ```sh
-# dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig libcurl-devel sqlite-devel -y
+# dnf groupinstall 'Development Tools' -y
+```
+
+```sh
+# dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig libcurl-devel sqlite-devel libnotify-devel -y
 ```
 
 ```sh
