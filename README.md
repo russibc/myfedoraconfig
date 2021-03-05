@@ -86,6 +86,7 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [Slack](https://slack.com/intl/pt-br/downloads/linux)
 - [Stremio](https://www.stremio.com/downloads)
 - [OneDrive](https://github.com/skilion/onedrive)
+- [Astah](https://astah.net/downloads)
 
 ## Visual Studio Code Config
 
