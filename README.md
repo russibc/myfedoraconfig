@@ -42,7 +42,7 @@ $ sudo su
 
 ## Utils
 ```sh
-# dnf install gparted -y && dnf install gnome-tweak-tool -y && dnf install alacarte -y && dnf install transmission -y && dnf install telegram -y 
+# dnf install alien -y dnf install gparted -y && dnf install gnome-tweak-tool -y && dnf install alacarte -y && dnf install transmission -y && dnf install telegram -y 
 ```
 
 ## Games
