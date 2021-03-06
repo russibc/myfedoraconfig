@@ -77,8 +77,6 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 
 - [Java](https://docs.fedoraproject.org/en-US/quick-docs/installing-java)
 - [GitKraken](https://www.gitkraken.com/download/linux-rpm)
-- [Visual Studio Code](https://code.visualstudio.com)
-- [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify)
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
 - [Eclipse](https://www.eclipse.org/downloads)
 - [Chrome](https://www.google.com/chrome/?platform=linux)
@@ -88,7 +86,42 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [OneDrive](https://github.com/skilion/onedrive)
 - [Astah](https://astah.net/downloads)
 
-## Visual Studio Code Config
+# Spotify
+
+- [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify)
+
+## If it fails, workaround:
+
+```sh
+$ mkdir spotify
+```
+```sh
+$ cd spotify
+```
+```sh
+$ wget http://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.1.42.622.gbd112320-37_amd64.deb
+```
+```sh
+$ sudo gedit /usr/share/lpf/packages/spotify-client/spotify-client.spec
+```
+
+### Change global variable, save and close Text Editor
+%global repo        http://localhost:8000
+
+```sh
+$ python -m http.server
+```
+
+### In another terminal
+```sh
+$ sudo dnf update lpf-spotify-client
+```
+
+# Visual Studio Code
+
+- [Visual Studio Code](https://code.visualstudio.com)
+
+## Config 
 
 - Omni
 - Material Icon Theme
