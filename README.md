@@ -130,7 +130,7 @@ $ sudo dnf update lpf-spotify-client
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
-  
+  "terminal.integrated.fontFamily": "Source Code Pro",
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
