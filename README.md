@@ -37,22 +37,22 @@ $ sudo su
 
 ## Graphics & Audio
 ```sh
-# dnf install kolourpaint -y && dnf install smplayer -y && dnf install audacity -y && dnf install inkscape -y && dnf install gimp -y
+# dnf install kolourpaint smplayer audacity inkscape gimp -y
 ```
 
 ## Utils
 ```sh
-# dnf install alien -y dnf install gparted -y && dnf install gnome-tweak-tool -y && dnf install alacarte -y && dnf install transmission -y && dnf install telegram -y 
+# dnf install alien gparted gnome-tweak-tool alacarte transmission telegram -y 
 ```
 
 ## Games
 ```sh
-# dnf install steam -y && dnf install lutris -y
+# dnf install steam lutris -y
 ```
 
 ## Dev
 ```sh
-# dnf install nodejs npm -y
+# dnf install nodejs npm pyqt5 qt5-devel qt-creator -y
 ```
 
 ## Android Studio 
