@@ -52,7 +52,7 @@ $ sudo su
 
 ## Dev
 ```sh
-# dnf install nodejs npm PyQt5 qt5-devel qt-creator -y
+# dnf install nodejs npm PyQt5 qt-creator -y
 ```
 
 ## Android Studio 
@@ -85,6 +85,7 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [Stremio](https://www.stremio.com/downloads)
 - [OneDrive](https://github.com/skilion/onedrive)
 - [Astah](https://astah.net/downloads)
+- [QtUnified](https://download.qt.io/official_releases/online_installers)
 
 # Spotify
 
