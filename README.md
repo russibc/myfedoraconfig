@@ -51,6 +51,11 @@ $ sudo su
 ```
 
 ## Dev
+
+```sh
+# dnf install java-latest-openjdk.x86_64 -y
+```
+
 ```sh
 # dnf install nodejs npm PyQt5 qt5-designer.x86_64 -y
 ```
@@ -83,11 +88,17 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [TeamViewer](https://www.teamviewer.com/pt-br/download/linux)
 - [Slack](https://slack.com/intl/pt-br/downloads/linux)
 - [Stremio](https://www.stremio.com/downloads)
-- [OneDrive](https://github.com/skilion/onedrive)
-- [Astah](https://astah.net/downloads)
 - [QtUnified](https://download.qt.io/official_releases/online_installers)
 - [Discord](https://github.com/RPM-Outpost/discord)
 - [Rats](https://github.com/DEgITx/rats-search)
+
+# Telegram
+```sh
+# dnf copr enable rommon/telegram
+```
+```sh
+# sudo dnf install telegram-desktop
+```
 
 # Spotify
 
