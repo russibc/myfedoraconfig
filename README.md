@@ -52,7 +52,7 @@ $ sudo su
 
 ## Dev
 ```sh
-# dnf install nodejs npm PyQt5 qt-creator qt5-designer.x86_64 -y
+# dnf install nodejs npm PyQt5 qt5-designer.x86_64 -y
 ```
 
 ## Android Studio 
