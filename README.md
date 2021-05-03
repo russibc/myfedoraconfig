@@ -118,6 +118,25 @@ $ python -m http.server
 $ sudo dnf update lpf-spotify-client
 ```
 
+# Nativefier: create webapps
+*Must have nodejs and npm installed*
+
+```sh
+$ sudo npm install nativefier -g
+```
+```sh
+$ nativefier --name "Web WhatsApp" "https://web.whatsapp.com"
+```
+```sh
+$ nativefier --name "LibreFlix" "https://libreflix.org"
+```
+```sh
+$ nativefier --name "YouTube" "https://www.youtube.com"
+```
+```sh
+$ nativefier --name "YouTube" "https://www.youtube.com"
+```
+
 # Visual Studio Code
 
 - [Visual Studio Code](https://code.visualstudio.com)
