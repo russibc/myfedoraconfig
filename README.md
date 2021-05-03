@@ -23,7 +23,7 @@ $ sudo su
 ```
 
 ```sh
-# dnf install gnome-font-viewer kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig libcurl-devel sqlite-devel libnotify-devel -y
+# dnf install libqt5printsupport5 libqt5xml5 libqt5sql5 libqt5serialport5 libqt5sql5-sqlite gnome-font-viewer kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig libcurl-devel sqlite-devel libnotify-devel -y
 ```
 
 ```sh
@@ -37,7 +37,7 @@ $ sudo su
 
 ## Graphics & Audio
 ```sh
-# dnf install pulseaudio simplescreenrecorder kolourpaint smplayer audacity inkscape gimp -y
+# dnf install kdenlive fritzing pulseaudio simplescreenrecorder kolourpaint smplayer audacity inkscape gimp -y
 ```
 
 ## Utils
