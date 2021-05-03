@@ -37,7 +37,7 @@ $ sudo su
 
 ## Graphics & Audio
 ```sh
-# dnf install kdenlive fritzing pulseaudio simplescreenrecorder kolourpaint smplayer audacity inkscape gimp -y
+# dnf install gthumb kdenlive fritzing pulseaudio simplescreenrecorder kolourpaint smplayer audacity inkscape gimp -y
 ```
 
 ## Utils
@@ -94,10 +94,10 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 
 # Telegram
 ```sh
-# dnf copr enable rommon/telegram
+# dnf copr enable rommon/telegram 
 ```
 ```sh
-# sudo dnf install telegram-desktop
+# sudo dnf install telegram-desktop -y
 ```
 
 # Spotify
@@ -128,7 +128,7 @@ $ python -m http.server
 
 ### In another terminal
 ```sh
-$ sudo dnf update lpf-spotify-client
+$ sudo dnf update lpf-spotify-client 
 ```
 
 # Nativefier: create webapps
