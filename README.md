@@ -86,6 +86,8 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [OneDrive](https://github.com/skilion/onedrive)
 - [Astah](https://astah.net/downloads)
 - [QtUnified](https://download.qt.io/official_releases/online_installers)
+- [Discord](https://github.com/RPM-Outpost/discord)
+- [Rats](https://github.com/DEgITx/rats-search)
 
 # Spotify
 
