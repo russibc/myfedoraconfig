@@ -91,6 +91,7 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 - [QtUnified](https://download.qt.io/official_releases/online_installers)
 - [Discord](https://github.com/RPM-Outpost/discord)
 - [Rats](https://github.com/DEgITx/rats-search)
+- [Anaconda](https://www.anaconda.com/products/individual)
 
 # Telegram
 ```sh
