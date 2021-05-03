@@ -37,12 +37,12 @@ $ sudo su
 
 ## Graphics & Audio
 ```sh
-# dnf install kolourpaint smplayer audacity inkscape gimp -y
+# dnf install pulseaudio simplescreenrecorder kolourpaint smplayer audacity inkscape gimp -y
 ```
 
 ## Utils
 ```sh
-# dnf install alien gparted gnome-tweak-tool alacarte transmission telegram -y 
+# dnf install lyx alien gparted gnome-tweak-tool alacarte transmission telegram -y 
 ```
 
 ## Games
