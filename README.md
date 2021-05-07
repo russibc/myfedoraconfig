@@ -3,7 +3,7 @@
 $ sudo su
 ```
 
-## Remove
+## To Uninstall
 ```sh
 # dnf remove rhythmbox -y && dnf remove libreoffice* -y && dnf remove totem -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-boxes -y
 ```
@@ -16,6 +16,12 @@ $ sudo su
 ```sh
 # dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 ```
+
+## Update OS and repos
+```sh
+# dnf clean all && dnf autoremove && dnf update -y && dnf upgrade -y & reboot
+```
+
 ## Essential
 
 ```sh
@@ -28,11 +34,6 @@ $ sudo su
 
 ```sh
 # curl -fsS https://dlang.org/install.sh | bash -s dmd
-```
-
-## Update OS and repos
-```sh
-# dnf clean all && dnf autoremove && dnf update -y && dnf upgrade -y & reboot
 ```
 
 ## Graphics & Audio
