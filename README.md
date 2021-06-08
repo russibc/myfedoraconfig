@@ -66,46 +66,24 @@ $ sudo su
 # dnf install nodejs npm PyQt5 qt5-designer.x86_64 -y
 ```
 
-## Android Studio 
-
-### Before install
-```sh
-# sudo dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y
-```
-
-- [Android Studio](https://developer.android.com/studio/install#linux)
-
-
-### Add To Path
-```sh
-$ export ANDROID_HOME=/home/$USER/Android/Sdk/
-```
-```sh
-$ export PATH=$PATH:$ANDROID_HOME/tools
-```
 
 ## Other
 
-- [Java](https://docs.fedoraproject.org/en-US/quick-docs/installing-java)
+- [Visual Studio Code](https://code.visualstudio.com)
 - [GitKraken](https://www.gitkraken.com/download/linux-rpm)
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
-- [Eclipse](https://www.eclipse.org/downloads)
+- [Discord](https://github.com/RPM-Outpost/discord)
 - [Chrome](https://www.google.com/chrome/?platform=linux)
+- [Eclipse](https://www.eclipse.org/downloads)- 
 - [TeamViewer](https://www.teamviewer.com/pt-br/download/linux)
 - [Slack](https://slack.com/intl/pt-br/downloads/linux)
 - [Stremio](https://www.stremio.com/downloads)
 - [QtUnified](https://download.qt.io/official_releases/online_installers)
-- [Discord](https://github.com/RPM-Outpost/discord)
 - [Rats](https://github.com/DEgITx/rats-search)
 - [Anaconda](https://www.anaconda.com/products/individual)
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench)
+- [Java](https://docs.fedoraproject.org/en-US/quick-docs/installing-java)
 
-# Telegram
-```sh
-# dnf copr enable rommon/telegram 
-```
-```sh
-# sudo dnf install telegram-desktop -y
-```
 
 # Spotify
 
@@ -157,11 +135,25 @@ $ nativefier --name "YouTube" "https://www.youtube.com"
 $ nativefier --name "YouTube" "https://www.youtube.com"
 ```
 
-# Visual Studio Code
+## Android Studio 
 
-- [Visual Studio Code](https://code.visualstudio.com)
+### Before install
+```sh
+# sudo dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686 -y
+```
 
-## Config 
+- [Android Studio](https://developer.android.com/studio/install#linux)
+
+
+### Add To Path
+```sh
+$ export ANDROID_HOME=/home/$USER/Android/Sdk/
+```
+```sh
+$ export PATH=$PATH:$ANDROID_HOME/tools
+```
+
+## Config VS Code
 
 - Omni
 - Material Icon Theme
