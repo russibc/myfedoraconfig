@@ -155,9 +155,10 @@ $ export PATH=$PATH:$ANDROID_HOME/tools
 
 ## Config VS Code
 
-- Omni
+- Omni Theme
 - Material Icon Theme
 
+### Use CTRL + P (Preferences: Open Settings)
 ```json
 {
   "editor.fontFamily": "JetBrains Mono",
