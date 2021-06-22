@@ -70,6 +70,8 @@ $ sudo su
 ## Other
 
 - [Visual Studio Code](https://code.visualstudio.com)
+- [OBS Studio](https://obsproject.com/wiki/install-instructions#fedora-installation-unofficial)
+- [NoiseTorch](https://github.com/lawl/NoiseTorch/releases)
 - [GitKraken](https://www.gitkraken.com/download/linux-rpm)
 - [Unified Remote](https://www.unifiedremote.com/download/other#linux)
 - [Discord](https://github.com/RPM-Outpost/discord)
