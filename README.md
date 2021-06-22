@@ -43,7 +43,7 @@ $ sudo su
 
 ## Graphics & Audio
 ```sh
-# dnf install gthumb kdenlive fritzing pulseaudio simplescreenrecorder kolourpaint vlc audacity inkscape gimp -y
+# dnf install pulseaudio pulseeffects gthumb kdenlive fritzing simplescreenrecorder vlc audacity inkscape gimp -y
 ```
 
 ## Utils
