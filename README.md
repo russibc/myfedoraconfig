@@ -48,7 +48,7 @@ $ sudo su
 
 ## Utils
 ```sh
-# dnf install lyx alien gparted gnome-tweak-tool alacarte transmission telegram -y 
+# dnf install xkill lyx alien gparted gnome-tweak-tool alacarte transmission telegram -y 
 ```
 
 ## Games
