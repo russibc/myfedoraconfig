@@ -66,6 +66,21 @@ $ sudo su
 # dnf install nodejs npm PyQt5 qt5-designer.x86_64 -y
 ```
 
+### PHP
+```sh
+# dnf install httpd curl git unzip php-cli composer php-mysqli install php php-zip php-mysqlnd php-mcrypt php-xml php-mbstring -y
+```
+
+### MySQL - Before Install
+
+```sh
+# dnf install mecab proj libzip pcre-cpp -y
+```
+```sh
+# sudo dnf install mariadb-server
+# sudo systemctl start mariadb.service
+# /usr/bin/mysql_secure_installation
+```
 
 ## Other
 
