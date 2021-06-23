@@ -68,7 +68,15 @@ $ sudo su
 
 ### PHP
 ```sh
-# dnf install httpd curl git unzip php-cli composer php-mysqli install php php-zip php-mysqlnd php-mcrypt php-xml php-mbstring -y
+# dnf install httpd curl git unzip php-cli composer php-mysqli php php-zip php-mysqlnd php-mcrypt php-xml php-mbstring -y
+```
+
+### LARAVEL
+```sh
+# cd /var/www/
+# git clone https://github.com/laravel/laravel.git
+# cd /var/www/laravel
+# composer install
 ```
 
 ### MySQL - Before Install
@@ -77,9 +85,9 @@ $ sudo su
 # dnf install mecab proj libzip pcre-cpp -y
 ```
 ```sh
-# sudo dnf install mariadb-server
-# sudo systemctl start mariadb.service
-# /usr/bin/mysql_secure_installation
+# dnf install mariadb-server -y
+# systemctl start mariadb.service
+# mysql_secure_installation
 ```
 
 ## Other
