@@ -19,7 +19,7 @@ $ sudo su
 
 ## Update OS and repos
 ```sh
-# dnf clean all && dnf autoremove -y && dnf update -y && dnf upgrade -y
+# dnf clean all && dnf update -y && dnf upgrade -y
 ```
 
 ## Reboot
