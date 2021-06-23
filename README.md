@@ -5,7 +5,7 @@ $ sudo su
 
 ## To Uninstall
 ```sh
-# dnf remove rhythmbox -y && dnf remove libreoffice* -y && dnf remove totem -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-boxes -y && dnf remove gnome-photos -y
+# dnf remove eog -y && dnf remove rhythmbox -y && dnf remove libreoffice* -y && dnf remove totem -y && dnf remove cheese -y && dnf remove gnome-maps -y && dnf remove gnome-contacts -y && dnf remove gnome-weather -y && dnf remove gnome-boxes -y && dnf remove gnome-photos -y
 ```
 
 ## Free Repos
