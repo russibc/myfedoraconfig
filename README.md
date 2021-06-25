@@ -53,7 +53,7 @@ $ sudo su
 
 ## Games
 ```sh
-# dnf install steam lutris -y
+# dnf install steam lutris pcsx2 -y
 ```
 
 ## Dev
